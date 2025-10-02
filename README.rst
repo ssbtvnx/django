@@ -1,5 +1,24 @@
 # A clone of Django  
-This is a cloned project for study purposes.  
+==============
+
+This is a simple Django project deployed for learning purposes.
+
+Deployed Version
+----------------
+The project is available at:
+https://django-app25.web.app
+
+Run Locally
+-----------
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Apply migrations:
+   python manage.py migrate
+
+3. Start the server:
+   python manage.py runserver
+
 
 ======
 Django
