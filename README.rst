@@ -1,23 +1,32 @@
-# A clone of Django  
-==============
+Django Clone
+==========
 
-This is a simple Django project deployed for learning purposes.
+This project is a simple Django application deployed with Firebase Hosting.
 
-Deployed Version
-----------------
-The project is available at:
-https://django-app25.web.app
+Project Links
+-------------
+- Firebase Console: https://console.firebase.google.com/project/django-app25/overview
+- Live Hosting URL: https://django-app25.web.app/
 
-Run Locally
------------
-1. Install dependencies:
+Getting Started
+---------------
+To run the project locally:
+
+.. code-block:: bash
+
    pip install -r requirements.txt
-
-2. Apply migrations:
    python manage.py migrate
-
-3. Start the server:
    python manage.py runserver
+
+Deployment
+----------
+To deploy on Firebase Hosting:
+
+.. code-block:: bash
+
+   firebase init hosting
+   firebase deploy
+
 
 
 ======
