@@ -1,3 +1,6 @@
+# A clone of Django  
+This is a cloned project for study purposes.  
+
 ======
 Django
 ======
